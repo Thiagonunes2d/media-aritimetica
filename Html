@@ -3,27 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Media Aritimetica </title>
-        <input id="nota 1" type="number"><br/>
-        <input id="nota 1" type="number"><br/>
-        <button onclick="media ()"> Calcular media </button>
-        
-        <script type = "text/javascript">
-
-        function media (){
-        ver nota 1 = passefloat(document.getElementByID("nota 1").value);
-        ver nota 2 = passefloat(document.getElementByID("nota 2").value);
-
-        var media = (nota 1 + nota 2)/2;
-
-        if(media >= 7)
-        if(media ==10)
-            ALERT("UAU! Aprovado  com distinção")
-        else
-            ALERT("Paranens, aprovado!Media "+media");
-        else
-            ALERT("Reprovado!")
+    <title>Poema em Cordel</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
         }
-        </script>
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 20px;
+            background: #fff;
+            border: 1px solid #ddd;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        .poema {
+            text-align: justify;
+            border-left: 3px solid #333;
+            padding-left: 10px;
+            font-size: 1.2em;
+        }
+        .autor {
+            text-align: right;
+            font-style: italic;
+            margin-top: 20px;
+        }
+    </style>
 </head>
+<body>
+    <div class="container">
+        <h1>Literatura de Cordel</h1>
+        <h2>O Poema do Sertão</h2>
+        <div class="poema">
+            <p>Nas terras secas do norte, <br>
+            Onde o sol é abrasador, <br>
+            Vive o povo lutador, <br>
+            Com coragem e muito amor.</p>
+
+            <p>O sertão é sua morada, <br>
+            Entre cactos e estradão, <br>
+            Mas no peito ele guarda <br>
+            Um grande sonho na mão.</p>
+
+            <p>Canta o poeta no cordel, <br>
+            Histórias do seu lugar, <br>
+            Feitas de luta e suor, <br>
+            Que ninguém pode apagar.</p>
+        </div>
+        <div class="autor">
+            <p>- Autor Desconhecido</p>
+        </div>
+    </div>
+</body>
 </html>
